@@ -1,0 +1,21 @@
+.inputTodoSearch {
+  padding: 0.9rem 1rem 0.9rem;
+  font-family: "Poppins", sans-serif;
+  background-color: #4f3ebf;
+  color: #fff;
+  border: 2px solid #4f3ebf;
+  outline: none;
+  border-radius: 0.25rem;
+  margin: 1rem auto;
+  transition: 0.2s;
+}
+
+.inputTodoSearch::placeholder {
+  font-family: "Poppins", sans-serif;
+  text-align: center;
+}
+
+.inputTodoSearch:focus {
+  border: 2px solid #8b80d6;
+  transition: 0.2s;
+}

@@ -1,0 +1,19 @@
+.btnCheckTask {
+  transition: 0.2s;
+  cursor: pointer;
+}
+
+.btnCheckTask:hover {
+  fill: #548c2f !important;
+  transition: 0.2s;
+}
+
+.btnDeleteTask {
+  transition: 0.2s;
+}
+
+.btnDeleteTask:hover {
+  fill: #d90429 !important;
+  cursor: pointer;
+  transition: 0.2s;
+}
