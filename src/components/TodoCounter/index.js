@@ -1,20 +1,17 @@
-import React, { useContext } from "react";
-import { TodoContext } from "../TodoContext/index";
-
+import React from "react";
 
 const estilos = {
-    fontWeight: 900,
-    textAlign: 'center',
-    color: '#fff',
-}
+  fontWeight: 900,
+  textAlign: "center",
+  color: "#fff",
+};
 
-function TodoCounter() {
-
-    const { completedTodosTask, totalTodosTask } = useContext(TodoContext);
-
-    return (
-        <h2 style={estilos}>Has completado { completedTodosTask } de { totalTodosTask } TODOs</h2>
-    );
+function TodoCounter({ completedTodosTask, totalTodosTask }) {
+  return (
+    <h2 style={estilos}>
+      Has completado {completedTodosTask} de {totalTodosTask} TODOs
+    </h2>
+  );
 }
 
 export { TodoCounter };
